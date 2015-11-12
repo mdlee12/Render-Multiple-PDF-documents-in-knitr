@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+author: "Michael Lee"
+date: "November 12, 2015"
+output: pdf_document
+---
+
+
+# run report for current car listed in loop in R file
+```{r input code}
+specs <- iris[iris$Species==spec,]
+```
+
+# create hypothetical lat and lon data 
+```{r input code2}
+plot(specs$Sepal.Length,specs$Petal.Length)
+```
